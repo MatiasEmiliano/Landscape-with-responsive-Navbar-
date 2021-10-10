@@ -340,12 +340,26 @@ footer ul a{
         color: white;
     }
 
+    .menuDesplegado a:hover{
+        color:orange;
+        transition: color 0.5s;
+    }
+
+
     .menuDesplegado .button{
         color: black;
         background-color: white;
         width: 150%;
         border-radius: 5em;
     }
+    .menuDesplegado .button:hover{
+        color: white;
+        background-color: turquoise;
+        transition: color 0.25s;
+        
+    }
+
+
 
     .logo{
         top: 38px;
